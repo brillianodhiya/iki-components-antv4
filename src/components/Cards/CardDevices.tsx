@@ -214,7 +214,7 @@ const CardDevices: React.FC<CardDevicesProps> = ({
             className={"collapse" + (collapseDevice ? "" : " open")}
           >
             <Row gutter={[24, 16]}>
-              <Col xxl={8} xl={8} md={12} sm={12} xs={24}>
+              <Col xxl={8} xl={8} md={8} sm={12} xs={24}>
                 <Space size={"middle"} wrap>
                   <Avatar
                     src={<DevicesIcons />}
@@ -255,7 +255,7 @@ const CardDevices: React.FC<CardDevicesProps> = ({
                   </Space>
                 </Space>
               </Col>
-              <Col xxl={8} xl={8} md={12} sm={12} xs={24}>
+              <Col xxl={8} xl={8} md={8} sm={12} xs={24}>
                 <Space size={"middle"} wrap>
                   <Avatar
                     size={{
@@ -297,7 +297,7 @@ const CardDevices: React.FC<CardDevicesProps> = ({
                   </Space>
                 </Space>
               </Col>
-              <Col xxl={8} xl={8} md={12} sm={12} xs={24}>
+              <Col xxl={8} xl={8} md={8} sm={12} xs={24}>
                 <Space size={"middle"} wrap>
                   <Avatar
                     size={{
@@ -353,6 +353,8 @@ const CardDevices: React.FC<CardDevicesProps> = ({
                   borderRadius: 8,
                   borderWidth: 0,
                   cursor: "pointer",
+                  fontSize: "14px",
+                  padding: "3px 6px",
                 }}
                 color="blue"
                 onClick={onClickViewDetail}

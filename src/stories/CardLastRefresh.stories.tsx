@@ -6,7 +6,7 @@ import CardLastRefresh, {
 } from "../components/Cards/CardLastRefresh";
 
 export default {
-  title: "Components/Cards/CardLastRefresh",
+  title: "IKI Components/Cards/CardLastRefresh",
   component: CardLastRefresh,
   argTypes: {
     date: {
