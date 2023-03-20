@@ -3,7 +3,7 @@ import { Story, Meta } from "@storybook/react/types-6-0";
 import CardDevices, { CardDevicesProps } from "../components/Cards/CardDevices";
 
 export default {
-  title: "Components/Cards/CardDevices",
+  title: "Components/Cards/Card Devices",
   component: CardDevices,
 } as Meta;
 
