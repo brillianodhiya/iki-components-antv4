@@ -19,3 +19,13 @@ Default.args = {
   exclamationValue: "180.074 m3",
   loading: false,
 };
+
+export const NotCollapsible = Template.bind({});
+NotCollapsible.args = {
+  checkTitle: "Tekanan Air",
+  checkValue: "0.03 Bar",
+  exclamationTitle: "Tekanan Air",
+  exclamationValue: "180.074 m3",
+  loading: false,
+  collapsible: false,
+};

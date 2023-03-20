@@ -12,7 +12,7 @@ import {
 import React, { CSSProperties } from "react";
 import { DownOutlined, UpOutlined, WifiOutlined } from "@ant-design/icons";
 import { OfflineIcon } from "../../Icons/OfflineIcon";
-import "./CardGateway.css";
+import "../main.css";
 import { GatewayIcon2 } from "../../Icons/GatewayIcon2";
 
 export interface CardGatewayProps {

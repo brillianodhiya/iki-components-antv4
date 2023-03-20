@@ -1,6 +1,6 @@
 import type { FunctionComponent } from "react";
 import { Button, Card, Space, Spin, Typography } from "antd";
-import "./main.css";
+import "../main.css";
 import ExclamtionCircle from "./exclamation-circle.svg";
 import CheckCircle from "./check-circle.svg";
 import { DownOutlined, UpOutlined } from "@ant-design/icons";

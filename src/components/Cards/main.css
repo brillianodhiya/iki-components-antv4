@@ -1,0 +1,17 @@
+.collapse {
+  overflow: hidden; /* untuk menyembunyikan konten yang melampaui ukuran maksimum */
+  max-height: 0; /* atur ukuran maksimum ke 0 saat di-collapse */
+  transition: max-height 0.3s ease-out; /* atur durasi dan animasi transisi */
+}
+
+.collapse.open {
+  max-height: 300px; /* atur ukuran maksimum ke nilai tertentu saat di-expand */
+}
+
+.collapse-header {
+  cursor: pointer;
+}
+
+.collapse-content {
+  padding: 10px;
+}

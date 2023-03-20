@@ -13,7 +13,7 @@ import React, { CSSProperties } from "react";
 import { DevicesIcons } from "../../Icons/GatewayIcon";
 import { DownOutlined, UpOutlined, WifiOutlined } from "@ant-design/icons";
 import { OfflineIcon } from "../../Icons/OfflineIcon";
-import "./CardDevices.css";
+import "../main.css";
 
 export interface CardDevicesProps {
   loading?: boolean;
