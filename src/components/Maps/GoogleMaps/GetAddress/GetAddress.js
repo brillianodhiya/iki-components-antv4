@@ -1,7 +1,5 @@
 import Geocode from "react-geocode";
 
-// AIzaSyAcli1qFFLWrhhlDhVUCWkAJqzEY6Cp9UI
-
 export const getAddressFromLatLong = async ({ lat, long, ApiKey }) => {
   Geocode.setApiKey(ApiKey);
   Geocode.setLanguage("en");
