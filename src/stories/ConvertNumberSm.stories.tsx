@@ -3,7 +3,7 @@ import { Story, Meta } from "@storybook/react/types-6-0";
 import { ConvertNumberSm } from "./ConvertNumberSm";
 
 export default {
-  title: "IKI Components/ConvertNumberSM",
+  title: "IKI Components/Converter/ConvertNumberSM",
   component: ConvertNumberSm,
   args: {
     number: 0,

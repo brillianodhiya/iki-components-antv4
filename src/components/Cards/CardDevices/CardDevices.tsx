@@ -10,9 +10,9 @@ import {
   Typography,
 } from "antd";
 import React, { CSSProperties } from "react";
-import { DevicesIcons } from "../Icons/GatewayIcon";
+import { DevicesIcons } from "../../Icons/GatewayIcon";
 import { DownOutlined, UpOutlined, WifiOutlined } from "@ant-design/icons";
-import { OfflineIcon } from "../Icons/OfflineIcon";
+import { OfflineIcon } from "../../Icons/OfflineIcon";
 import "./CardDevices.css";
 
 export interface CardDevicesProps {
@@ -30,7 +30,7 @@ export interface CardDevicesProps {
 }
 
 const CardDevices: React.FC<CardDevicesProps> = ({
-  loading,
+  loading = false,
   style = {
     borderRadius: 8,
     borderTop: "2px solid #1890FF",

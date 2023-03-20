@@ -1,19 +1,19 @@
 import Reacr from "react";
 import { Story, Meta } from "@storybook/react/types-6-0";
-import CardDevices, { CardDevicesProps } from "../components/Cards/CardDevices";
+import CardGateway, { CardGatewayProps } from "./CardGateway";
 
 export default {
-  title: "IKI Components/Cards/Card Devices",
-  component: CardDevices,
+  title: "IKI Components/Cards/Card Gateway",
+  component: CardGateway,
 } as Meta;
 
-const Template: Story<CardDevicesProps> = (args) => <CardDevices {...args} />;
+const Template: Story<CardGatewayProps> = (args) => <CardGateway {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  deviceOffline: 0,
-  deviceOnline: 0,
-  deviceTotal: 0,
+  gatewayOffline: 0,
+  gatewayOnline: 0,
+  gatewayTotal: 0,
   loading: false,
   withNotification: false,
   loadingNotification: false,
@@ -29,9 +29,9 @@ Default.args = {
 
 export const Collapsible = Template.bind({});
 Collapsible.args = {
-  deviceOffline: 0,
-  deviceOnline: 0,
-  deviceTotal: 0,
+  gatewayOffline: 0,
+  gatewayOnline: 0,
+  gatewayTotal: 0,
   loading: false,
   withNotification: false,
   loadingNotification: false,
@@ -48,9 +48,9 @@ Collapsible.args = {
 
 export const WithNotification = Template.bind({});
 WithNotification.args = {
-  deviceOffline: 0,
-  deviceOnline: 0,
-  deviceTotal: 0,
+  gatewayOffline: 0,
+  gatewayOnline: 0,
+  gatewayTotal: 0,
   loading: false,
   withNotification: true,
   loadingNotification: false,
@@ -66,9 +66,9 @@ WithNotification.args = {
 
 export const Loading = Template.bind({});
 Loading.args = {
-  deviceOffline: 0,
-  deviceOnline: 0,
-  deviceTotal: 0,
+  gatewayOffline: 0,
+  gatewayOnline: 0,
+  gatewayTotal: 0,
   loading: true,
   withNotification: false,
   loadingNotification: false,
@@ -84,9 +84,9 @@ Loading.args = {
 
 export const LoadingNotification = Template.bind({});
 LoadingNotification.args = {
-  deviceOffline: 0,
-  deviceOnline: 0,
-  deviceTotal: 0,
+  gatewayOffline: 0,
+  gatewayOnline: 0,
+  gatewayTotal: 0,
   loading: false,
   withNotification: true,
   loadingNotification: true,
@@ -102,9 +102,9 @@ LoadingNotification.args = {
 
 export const WithData = Template.bind({});
 WithData.args = {
-  deviceOffline: 10,
-  deviceOnline: 20,
-  deviceTotal: 30,
+  gatewayOffline: 10,
+  gatewayOnline: 20,
+  gatewayTotal: 30,
   loading: false,
   withNotification: false,
   loadingNotification: false,
@@ -117,3 +117,5 @@ WithData.args = {
     boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.15)",
   },
 };
+
+export const NoArgs = Template.bind({});
